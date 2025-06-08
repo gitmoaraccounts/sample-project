@@ -79,7 +79,7 @@ python analyzer.py --input logs.json --rules config/rules.yaml --output report.c
 
 #### Example CLI UI Output:
 ```
-+------------------------------------------------------+
++-------------------------------------------------------------+
 |                 SECURITY LOG ANALYZER v1.0                  |
 +-------------------------------------------------------------+
 | Input file: logs.json                                       |
