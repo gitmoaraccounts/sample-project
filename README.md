@@ -71,10 +71,13 @@ The command options are:
 | `--output`    | Path to CSV output file|
 | `--ui`        | Generate a CLI output|
 
-You can see the analysis results in the .csv file or use the built in User Interface to see a better, human-readable version that easily summarizes the results:
+You can see the analysis results in the .csv file or use the built in User Interface to see a better, human-readable version that easily summarizes the results. That command would be:
+
+```python analyzer.py --input logs.json --rules config/rules.yaml --output report.csv --ui```
 
 #### Example CLI UI Output:
-``` bash+-------------------------------------------------------------+
+```
++------------------------------------------------------+
 |                 SECURITY LOG ANALYZER v1.0                  |
 +-------------------------------------------------------------+
 | Input file: logs.json                                       |
@@ -98,3 +101,5 @@ Detailed report written to report.csv
 +-------------------------------------------------------------+
 ```
 
+## Conclusion
+Thanks for reading!
