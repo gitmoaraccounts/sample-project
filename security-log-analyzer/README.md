@@ -36,14 +36,10 @@ cd security-log-analyzer
 3: Add the below requirements.txt file to your folder
 ```bash
 vim requirements.txt
-# Copy paste requirements.txt
-:x # Run that command in vim to save and close the file
+# Copy paste requirements.txt into this new file
+:x 
+# Run :x in vim to save and close the file
 ```
-4: pip install requirements.txt
-``` bash
-pip install -r requirements.txt
-```
-
 #### requirements.txt
 ```
 # Log parsing library
@@ -61,8 +57,16 @@ geoip-mapper==0.9.8
 # Report generation library (CSV / HTML)
 reportgen==3.5.7
 ```
+
+
+4: pip install requirements.txt
+``` bash
+pip install -r requirements.txt
+```
+
+
 ## Usage
-After you completed the installation steps, run the following command to execute the tool:
+After you complete the installation steps, run the following command to execute the tool:
 ``` bash
 python analyzer.py --input logs.json --rules config/rules.yaml --output report.csv
 ```
