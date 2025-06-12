@@ -3,7 +3,7 @@ Hi there! 👋
 
 This repository contains a fake project to demonstrate technical writing and documentation skills. Everything below the Overview section is made up, which means the links won't go anywhere (except the Python one) and you won't be able to actually install anything.
 
-## Log Analyzer Tool - Overview
+## Log Analyzer Tool
 Log Analyzer is a simple tool for security engineers and cloud administrators to analyze large volumes of security logs for common patterns:
 
 * Impossible travel detections
