@@ -25,17 +25,22 @@ To install this tool, you'll need Python 3.9 or newer and a Windows, Mac, or Lin
 ### Installation Steps 
 >This guide does not cover installing Python. Please visit the official Python site: https://www.python.org/ to download and install for your particular operating system.
 
-1: Clone the repository\
-2: Change into the newly created repo\
-3: Add the below requirements.txt file to your folder\
-4: pip install requirements.txt
-
-The commands for each step are below for reference. Note after running `vim requirements.txt`, you can copy the contents of the provided requirements.txt file into your newly created one.
-
+1: Clone the repository
 ``` bash
 git clone https://github.com/<user>/security-log-analyzer.git
+```
+2: Change into the newly created repository
+``` bash
 cd security-log-analyzer
-vim requirements.txt 
+```
+3: Add the below requirements.txt file to your folder
+```bash
+vim requirements.txt
+# Copy paste requirements.txt
+:x # Run that command in vim to save and close the file
+```
+4: pip install requirements.txt
+``` bash
 pip install -r requirements.txt
 ```
 
@@ -70,9 +75,9 @@ The command options are:
 | `--output`    | Path to CSV output file|
 | `--ui`        | Generate a CLI output|
 
-You can see the analysis results in the .csv file or use the built in User Interface to see a better, human-readable version that easily summarizes the results. That command would be:
+You can see the analysis results by opening the .csv file or by using the built in User Interface to see a better, human-readable version that easily summarizes the results. That command would be:
 
-```
+``` bash
 python analyzer.py --input logs.json --rules config/rules.yaml --output report.csv --ui
 ```
 
