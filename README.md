@@ -1,6 +1,6 @@
 # Overview 
 Hi there! 👋
 
-This repository contains fake projects to demonstrate technical writing and documentation skills. Everything in this repo is made up, which means the links won't go anywhere (except the Python one) and you won't be able to actually install or run anything.
+This repository contains projects to demonstrate technical writing and documentation skills. Currently I have a totally fake [Security Log Analyzer](security-log-analyzer) project setup that won't actually run, but you can get an idea of how I'd structure a repository, README's and other files. 
 
-Check out my [Security Log Analyzer project](security-log-analyzer) to get started.
+I also have [Github Workflow Quickstart](github-workflow-quickstart), which demonstrates my ability to write internal documentation, and write instructional content, including how to structure technical content clearly.
