@@ -8,7 +8,6 @@
 This guide provides step-by-step instructions for working with Git and GitHub in a collaborative engineering environment. It’s designed for onboarding new developers, engineers, or technical team members who are new to version control workflows.
 
 By the end of this guide, you’ll be able to:
-- Set up your Git environment
 - Clone a repository and create a new branch
 - Commit your changes following best practices
 - Submit a pull request (PR) for review
