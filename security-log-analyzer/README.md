@@ -19,7 +19,7 @@ The tool supports logs from:
 
 
 ## Getting Started
-### Pre-requisites
+### Prerequisites
 To install this tool, you'll need Python 3.9 or newer and a Windows, Mac, or Linux operating system. Additionally, any log files you want to analyze must be in JSON format, so place those logs somewhere easily accessible on your endpoint.
 
 ### Installation Steps 
