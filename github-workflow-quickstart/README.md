@@ -30,6 +30,10 @@ Before you begin, make sure you have the following installed:
 
 ## 🌱 Cloning a Repo and Creating a Branch
 
+Next, peruse GitHub and decide which repository you'd like to contribute to or edit. Often, you'll see tags on repositories that say "Good first issue." Some examples are on the pandas repository: https://github.com/pandas-dev/pandas/contribute
+
+Pick one of those and then follow the below commands:
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-org/project-name.git
