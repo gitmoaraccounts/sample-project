@@ -47,12 +47,23 @@ git checkout -b your-feature-branch
 ```
 
 ---
-## ✍️ Writing Clear Commit Messages
+## ✏️ Make your changes
 
-Good commit messages explain why the change was made. Stick to a format like this:
+Edit files locally in your preferred editor and then save changes there. Then, move to your terminal and double check what you modified:
 
 ```bash
-git commit -m "Fix typo in authentication error message"
+git status
+```
+
+
+## ✍️ Stage and Commit Your Changes
+Next, you will stage and commit your changes. Use a clear, concise commit message that explains what you changed and why.
+
+Stick to a format like this:
+
+```bash
+git add .
+git commit -m "Clarify README workflow instructions"
 ```
 ✅ __Do:__
 - Keep messages short and meaningful
@@ -67,7 +78,7 @@ Note there is some debate on writing commits in imperative mood, which is a tens
 ---
 ## 🔁 Opening a Pull Request (PR)
 
-After pushing your branch to GitHub:
+After committing your changes, push the branch back to GitHub and then you will open a pull request for the repository owner to review.
 
 ```bash
 git push origin your-feature-branch
@@ -75,9 +86,15 @@ git push origin your-feature-branch
 Go to the repository on GitHub and click “Compare & pull request.”
 
 In your PR:
-- Include a summary of the changes
+- Include a summary of the changes (files updated)
+- What problem it solved
 - Reference related issues (if applicable)
 - Tag reviewers
+
+Example:
+
+    Title: Clarify README steps for Git workflow
+    Description: This PR improves the contributor guide by detailing each step from cloning to merging.
 
 >Tip: Use a pull request template to keep your PRs consistent (see `/examples/pull_request_template.md`)
 
